@@ -1,0 +1,13 @@
+.contenedor{
+    width: 30%;
+    background-color: brown;
+    margin: 0 auto;
+}
+
+.encabezado{
+    display:flex;
+}
+
+.fab,h3,.fas{
+ flex: 1 1 auto;
+}
