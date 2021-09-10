@@ -11,11 +11,11 @@ body{
     justify-content: space-between;
     align-items: center;
     width:100%;
-    border: 2px solid green;
+    
 }
 .elem-izquierda{
     display: flex;
-    border:2px solid red;
+    
     align-items: center;
     margin-left: 10px;
     
@@ -25,13 +25,13 @@ body{
    font-size: small;
 }
 .elem-derecha{
-    border:2px solid blue;
+    
     margin-right: 10px;
 }
 .imagen-container{
     
     width: 100%;
-    border: 2px solid red;
+    
 
 }
 .imagen{
@@ -39,5 +39,16 @@ body{
 }
 .cuerpo{
     width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cuerpo-izq{
+    display: flex;
+    margin-left: 5px;
+}
+.cuerpo-der{
+    margin-right: 5px;
+}
 }
 
