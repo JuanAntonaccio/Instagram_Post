@@ -1,13 +1,43 @@
 .contenedor{
     width: 30%;
-    background-color: brown;
+    background-color: white;
     margin: 0 auto;
 }
-
+body{
+    background-color: black;
+}
 .encabezado{
-    display:flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    border: 2px solid green;
+}
+.elem-izquierda{
+    display: flex;
+    border:2px solid red;
+    align-items: center;
+    margin-left: 10px;
+    
+}
+.titulo{
+   margin-left: 5px;
+   font-size: small;
+}
+.elem-derecha{
+    border:2px solid blue;
+    margin-right: 10px;
+}
+.imagen-container{
+    
+    width: 100%;
+    border: 2px solid red;
+
+}
+.imagen{
+    width: 100%;
+}
+.cuerpo{
+    width: 100%;
 }
 
-.fab,h3,.fas{
- flex: 1 1 auto;
-}
